@@ -1,0 +1,75 @@
+/* Style pour le conteneur principal */
+#idabdelali {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 20px auto;
+    padding: 20px;
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Style pour l'input */
+#idabdelali input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Style pour le bouton */
+#idabdelali button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#idabdelali button:hover {
+    background-color: #0056b3;
+}
+
+/* Style pour la liste */
+#idabdelali ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0 0 0;
+}
+
+#idabdelali li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    text-align: left;
+}
+
+/* Dernier élément sans bord */
+#idabdelali li:last-child {
+    margin-bottom: 0;
+}
+.mybtn {
+    background-color: black; /* Couleur de fond noire */
+    color: white; /* Texte en blanc */
+    font-size: 12px; /* Taille du texte réduite */
+    padding: 5px 10px; /* Espacement interne (padding) réduit */
+    border: none; /* Suppression de la bordure */
+    border-radius: 3px; /* Coins légèrement arrondis */
+    cursor: pointer; /* Curseur en forme de main pour l'interaction */
+    transition: background-color 0.3s ease; /* Animation pour l'effet hover */
+    position: absolute;
+    left: 850px;
+  }
+  
+  .mybtn:hover {
+    background-color: #333; /* Couleur légèrement plus claire au survol */
+  }
+  
